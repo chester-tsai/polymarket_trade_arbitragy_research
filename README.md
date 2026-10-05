@@ -79,9 +79,6 @@ No second market connection is opened. If storage falls behind far enough to
 fill the bounded queue, an error is printed and affected rows are counted as
 dropped rather than blocking price processing.
 
-The prior demo's pre-fee conditional record is preserved separately in
-opportunities_legacy_conditional.jsonl.
-
 The Chainlink TWAP feed is implemented locally in `rtds_feed.py`, using the
 public Polymarket RTDS WebSocket. The market books use the public SDK WebSocket.
 The program does not require the reference trader project, a wallet, or its
