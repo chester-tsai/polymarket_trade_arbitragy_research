@@ -16,6 +16,11 @@ Use Python 3.11 or newer. On a new Windows computer, from the project folder:
 In VS Code, select `.venv` as the interpreter and run **BTC Strike Dominance
 Demo** from Run and Debug.
 
+For a portable Windows folder, extract the ZIP and double-click
+`START_MONITOR.bat`. It creates `.venv` and installs the requirements on first
+launch, then starts the monitor. Python 3.11+ and internet access are required
+for the initial setup and live market connections.
+
 Dependencies are listed in `requirements.txt`. Runtime logs and collected
 order-book history are local files and are excluded from Git.
 

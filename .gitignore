@@ -4,6 +4,7 @@ __pycache__/
 .env
 .env.*
 !.env.example
+*.zip
 opportunities.jsonl
 opportunities_legacy_conditional.jsonl
 orderbook_history_*.jsonl
