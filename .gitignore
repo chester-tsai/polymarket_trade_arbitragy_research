@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+opportunities.jsonl
+opportunities_legacy_conditional.jsonl
+orderbook_history_*.jsonl
+orderbook_history_*.jsonl.gz
+conditional_spread_results/
+lead_lag_results/
+naked_sell_results/
+spread_stationarity_results/
+structural_arb_results/
